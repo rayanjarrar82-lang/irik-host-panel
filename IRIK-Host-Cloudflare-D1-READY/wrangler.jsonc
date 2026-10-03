@@ -1,12 +1,9 @@
 {
-  "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "irik-host",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "compatibility_date": "2026-10-02",
   "assets": {
-    "directory": "./public",
-    "binding": "ASSETS",
-    "not_found_handling": "single-page-application"
+    "directory": "./public"
   },
   "d1_databases": [
     {
